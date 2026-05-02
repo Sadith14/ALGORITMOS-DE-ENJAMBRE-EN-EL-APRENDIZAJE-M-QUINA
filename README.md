@@ -1,6 +1,6 @@
 # ALGORITMOS-DE-ENJAMBRE-EN-EL-APRENDIZAJE-M-QUINA
 # Swarm Intelligence Applied to Machine Learning
-### Dataset: Mushroom Classification (UCI Machine Learning Repository)
+Dataset: Mushroom Classification (UCI Machine Learning Repository)
 
 This project applies four **bio-inspired swarm intelligence algorithms** to different machine learning tasks using the UCI Mushroom dataset (8,124 samples, 22 categorical features, binary classification: edible vs. poisonous).
 
@@ -194,7 +194,7 @@ This demonstrates that a neural network can be trained to near-99% accuracy usin
 
 ## 4. Swarm Clustering
 
-**File:** `swarm_clustering.ipynb`  
+**File:** `swarm_clustering_mushrooms.ipynb`  
 **Algorithms:** PSO, ABC, GWO, PSO-KModes  
 **Task:** Unsupervised clustering (recover the edible/poisonous structure without labels)
 
@@ -288,18 +288,6 @@ PSO-KModes achieved the highest ARI (0.606), outperforming all other clustering 
 > **Silhouette**: measures geometric cluster quality. 1.0 = perfectly separated, 0.0 = overlapping.
 
 ---
-
-## Overall Summary
-
-| Notebook | Algorithm | Task | Key Result |
-|---|---|---|---|
-| `abc_feature_selection.ipynb` | ABC | Feature Selection | 4/22 features → 99.82% accuracy (−81.8% features) |
-| `pso_hyperparameter_tuning.ipynb` | PSO | Hyperparameter Tuning | 100% accuracy with auto-found RF hyperparameters |
-| `pso_neural_network.ipynb` | PSO | NN Training (no backprop) | 98.09% test accuracy, 513 weights optimized by swarm |
-| `swarm_clustering.ipynb` | PSO / ABC / GWO / PSO-KModes | Unsupervised Clustering | PSO-KModes best ARI (0.606); ABC best Silhouette (0.52) |
-
----
-
 ## Requirements
 
 ```
