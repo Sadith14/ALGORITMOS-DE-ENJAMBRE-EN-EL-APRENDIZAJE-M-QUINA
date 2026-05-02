@@ -131,7 +131,7 @@ The PSO converged in iteration 1, achieving perfect accuracy. The mushroom datas
 
 ## 3. Neural Network Training without Backpropagation
 
-**File:** `pso_neural_network.ipynb`  
+**File:** `NN_training_without_backpropagation.ipynb`  
 **Algorithm:** Particle Swarm Optimization (PSO)  
 **Model:** Feedforward Neural Network (trained entirely by PSO — no gradient descent)
 
@@ -171,17 +171,17 @@ No gradients are computed at any point. The update rule uses the standard PSO ve
 
 | Iteration | Fitness | Train Acc | Test Acc |
 |---|---|---|---|
-| 1 | 0.453 | 78.87% | 80.31% |
-| 40 | 0.216 | 91.21% | 91.94% |
-| 100 | 0.115 | 96.38% | 96.49% |
-| 160 | 0.069 | 97.78% | 97.60% |
-| 200 | 0.046 | 97.88% | 98.09% |
+| 1 |    0.45285 |   0.7887 |   0.8031|
+| 20 |    0.25612 |   0.8861 |   0.8868|
+|  40 |    0.21556 |   0.9121 |   0.9194|
+| 60 |    0.21165 |   0.9092 |   0.9157|
+| 80 |    0.16241 |   0.9392 |   0.9428|
+...
 
 ### Final Results
 
 | Metric | Value |
 |---|---|
-| Training time | ~30 seconds |
 | Final fitness | 0.0465 |
 | Train accuracy | **97.88%** |
 | Test accuracy | **98.09%** |
