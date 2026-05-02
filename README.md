@@ -304,7 +304,4 @@ All notebooks run on Google Colab. The dataset (`mushrooms.csv`) can be loaded f
 
 ## References
 
-- Karaboga, D. (2005). *An idea based on honey bee swarm for numerical optimization*. Technical Report TR06, Erciyes University.
-- Kennedy, J. & Eberhart, R. (1995). *Particle swarm optimization*. ICNN.
-- Mirjalili, S., Mirjalili, S. M., & Lewis, A. (2014). *Grey wolf optimizer*. Advances in Engineering Software, 69, 46–61.
-- UCI ML Repository — Mushroom Dataset: https://archive.ics.uci.edu/ml/datasets/mushroom
+Mushroom [Dataset]. (1981). UCI Machine Learning Repository. https://doi.org/10.24432/C5959T. https://www.kaggle.com/datasets/uciml/mushroom-classification/data
